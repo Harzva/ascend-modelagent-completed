@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Harzva/ascend-modelagent-completed/main/schema/competition-feedback-v1.schema.json",
+  "schema_version": "1.0",
+  "competition_id": "2083120580017467393",
+  "generated_at": "2026-08-11T03:01:23+08:00",
+  "source": {
+    "url": "https://competition.gitcode.com/competition/2083120580017467393/publish",
+    "total_score": 1100,
+    "submission_count": 12
+  },
+  "summary": {
+    "open_model_count": 1,
+    "open_issue_count": 1
+  },
+  "items": [
+    {
+      "id": "repair-e727b9d3e5a9cd24",
+      "status": "open",
+      "priority": "high",
+      "model_id": "depth-anything/DA3METRIC-LARGE",
+      "original_model_url": "https://huggingface.co/depth-anything/DA3METRIC-LARGE",
+      "project_url": "https://gitcode.com/harzva/da3metric-large-npu",
+      "repo_slug": "harzva/da3metric-large-npu",
+      "submission_number": 12,
+      "submitted_at": "2026-08-11T03:01:23+08:00",
+      "first_seen_at": "2026-08-11T03:01:23+08:00",
+      "last_seen_at": "2026-08-11T03:01:23+08:00",
+      "issues": [
+        {
+          "id": "issue-3958d2a9a04e13fa",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/da3metric-large-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/da3metric-large-npu.json",
+      "receipt_path": "feedback/receipts/da3metric-large-npu.json"
+    }
+  ]
+}

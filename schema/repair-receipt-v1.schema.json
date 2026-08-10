@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Harzva/ascend-modelagent-completed/main/schema/repair-receipt-v1.schema.json",
+  "title": "Ascend Model Agent repair receipt",
+  "type": "object",
+  "required": ["schema_version", "queue_item_id", "project_url", "status", "updated_at", "summary"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "queue_item_id": {"type": "string"},
+    "project_url": {"type": "string", "format": "uri"},
+    "status": {"enum": ["accepted", "fixed", "blocked"]},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "summary": {"type": "string"},
+    "public_commit_url": {"type": ["string", "null"], "format": "uri"},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "remaining_blocker": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

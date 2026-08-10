@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Harzva/ascend-modelagent-completed/main/schema/competition-feedback-v1.schema.json",
+  "title": "Ascend Model Agent competition repair queue",
+  "type": "object",
+  "required": ["schema_version", "competition_id", "generated_at", "source", "summary", "items"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "competition_id": {"type": "string"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "source": {
+      "type": "object",
+      "required": ["url", "total_score", "submission_count"],
+      "properties": {
+        "url": {"type": "string", "format": "uri"},
+        "total_score": {"type": "integer", "minimum": 0},
+        "submission_count": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "summary": {
+      "type": "object",
+      "required": ["open_model_count", "open_issue_count"],
+      "properties": {
+        "open_model_count": {"type": "integer", "minimum": 0},
+        "open_issue_count": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/repairItem"}
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "issue": {
+      "type": "object",
+      "required": ["id", "code", "severity", "message", "paths"],
+      "properties": {
+        "id": {"type": "string"},
+        "code": {"type": "string"},
+        "severity": {"enum": ["low", "medium", "high", "critical"]},
+        "message": {"type": "string"},
+        "paths": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      },
+      "additionalProperties": false
+    },
+    "repairItem": {
+      "type": "object",
+      "required": ["id", "status", "priority", "model_id", "original_model_url", "project_url", "repo_slug", "submission_number", "submitted_at", "first_seen_at", "last_seen_at", "issues", "repair_contract", "model_feedback_path", "receipt_path"],
+      "properties": {
+        "id": {"type": "string"},
+        "status": {"const": "open"},
+        "priority": {"enum": ["low", "medium", "high", "critical"]},
+        "model_id": {"type": "string"},
+        "original_model_url": {"type": "string", "format": "uri"},
+        "project_url": {"type": "string", "format": "uri"},
+        "repo_slug": {"type": "string"},
+        "submission_number": {"type": "integer", "minimum": 1},
+        "submitted_at": {"type": "string", "format": "date-time"},
+        "first_seen_at": {"type": "string", "format": "date-time"},
+        "last_seen_at": {"type": "string", "format": "date-time"},
+        "issues": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/issue"}},
+        "repair_contract": {
+          "type": "object",
+          "required": ["target_repository", "actions", "verification", "constraints"],
+          "properties": {
+            "target_repository": {"type": "string", "format": "uri"},
+            "actions": {"type": "array", "items": {"type": "string"}},
+            "verification": {"type": "array", "items": {"type": "string"}},
+            "constraints": {"type": "array", "items": {"type": "string"}}
+          },
+          "additionalProperties": false
+        },
+        "model_feedback_path": {"type": "string"},
+        "receipt_path": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}
