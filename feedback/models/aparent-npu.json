@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "project_url": "https://gitcode.com/harzva/aparent-npu",
+  "model_id": "multimolecule/aparent",
+  "status": "open",
+  "first_seen_at": "2026-08-11T05:33:24+08:00",
+  "last_seen_at": "2026-08-11T05:33:24+08:00",
+  "resolved_at": null,
+  "issues": [
+    {
+      "id": "issue-3b38fc5da02dd1dc",
+      "code": "missing_npu_metadata",
+      "severity": "high",
+      "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
+      "paths": [
+        "README.md"
+      ]
+    }
+  ],
+  "repair_contract": {
+    "target_repository": "https://gitcode.com/harzva/aparent-npu",
+    "actions": [
+      "修复 README.md frontmatter，确保 hardware: NPU"
+    ],
+    "verification": [
+      "重新读取 README.md 并确认平台 NPU 元数据可识别",
+      "修复推送后写入 feedback/receipts/<repo-name>.json"
+    ],
+    "constraints": [
+      "只修改 target_repository 指向的模型仓库",
+      "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+      "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+    ]
+  },
+  "observations": [
+    {
+      "observed_at": "2026-08-11T05:33:24+08:00",
+      "total_score": 1400,
+      "issue_ids": [
+        "issue-3b38fc5da02dd1dc"
+      ]
+    }
+  ]
+}
