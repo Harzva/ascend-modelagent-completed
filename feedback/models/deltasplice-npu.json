@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "project_url": "https://gitcode.com/harzva/ufold-npu",
-  "model_id": "multimolecule/ufold",
+  "project_url": "https://gitcode.com/harzva/deltasplice-npu",
+  "model_id": "multimolecule/deltasplice",
   "status": "open",
-  "first_seen_at": "2026-08-11T05:33:24+08:00",
+  "first_seen_at": "2026-08-11T06:33:52.785+08:00",
   "last_seen_at": "2026-08-11T06:33:52.785+08:00",
   "resolved_at": null,
   "issues": [
     {
-      "id": "issue-11158171e96acfc9",
+      "id": "issue-8131d4655658377e",
       "code": "missing_npu_metadata",
       "severity": "high",
       "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
@@ -18,7 +18,7 @@
     }
   ],
   "repair_contract": {
-    "target_repository": "https://gitcode.com/harzva/ufold-npu",
+    "target_repository": "https://gitcode.com/harzva/deltasplice-npu",
     "actions": [
       "修复 README.md frontmatter，确保 hardware: NPU"
     ],
@@ -34,17 +34,10 @@
   },
   "observations": [
     {
-      "observed_at": "2026-08-11T05:33:24+08:00",
-      "total_score": 1400,
-      "issue_ids": [
-        "issue-11158171e96acfc9"
-      ]
-    },
-    {
       "observed_at": "2026-08-11T06:33:52.785+08:00",
       "total_score": 1400,
       "issue_ids": [
-        "issue-11158171e96acfc9"
+        "issue-8131d4655658377e"
       ]
     }
   ]
