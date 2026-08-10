@@ -2,17 +2,56 @@
   "$schema": "https://raw.githubusercontent.com/Harzva/ascend-modelagent-completed/main/schema/competition-feedback-v1.schema.json",
   "schema_version": "1.0",
   "competition_id": "2083120580017467393",
-  "generated_at": "2026-08-11T03:01:23+08:00",
+  "generated_at": "2026-08-11T04:33:43+08:00",
   "source": {
     "url": "https://competition.gitcode.com/competition/2083120580017467393/publish",
-    "total_score": 1100,
-    "submission_count": 12
+    "total_score": 1400,
+    "submission_count": 19
   },
   "summary": {
-    "open_model_count": 1,
-    "open_issue_count": 1
+    "open_model_count": 5,
+    "open_issue_count": 5
   },
   "items": [
+    {
+      "id": "repair-e640e0f0641aba46",
+      "status": "open",
+      "priority": "critical",
+      "model_id": "kha-white/manga-ocr-base",
+      "original_model_url": "https://huggingface.co/kha-white/manga-ocr-base",
+      "project_url": "https://gitcode.com/harzva/manga-ocr-base-npu",
+      "repo_slug": "harzva/manga-ocr-base-npu",
+      "submission_number": 14,
+      "submitted_at": "2026-08-11T04:01:59+08:00",
+      "first_seen_at": "2026-08-11T04:33:43+08:00",
+      "last_seen_at": "2026-08-11T04:33:43+08:00",
+      "issues": [
+        {
+          "id": "issue-85fa821a153fc2c5",
+          "code": "repository_access_problem",
+          "severity": "critical",
+          "message": "作品仓库不是公开仓库，跳过计分",
+          "paths": []
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/manga-ocr-base-npu",
+        "actions": [
+          "按比赛低分提醒修复：作品仓库不是公开仓库，跳过计分"
+        ],
+        "verification": [
+          "重新打开比赛查看结果，确认对应提醒消失",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/manga-ocr-base-npu.json",
+      "receipt_path": "feedback/receipts/manga-ocr-base-npu.json"
+    },
     {
       "id": "repair-e727b9d3e5a9cd24",
       "status": "open",
@@ -24,7 +63,7 @@
       "submission_number": 12,
       "submitted_at": "2026-08-11T03:01:23+08:00",
       "first_seen_at": "2026-08-11T03:01:23+08:00",
-      "last_seen_at": "2026-08-11T03:01:23+08:00",
+      "last_seen_at": "2026-08-11T04:33:43+08:00",
       "issues": [
         {
           "id": "issue-3958d2a9a04e13fa",
@@ -56,6 +95,138 @@
       },
       "model_feedback_path": "feedback/models/da3metric-large-npu.json",
       "receipt_path": "feedback/receipts/da3metric-large-npu.json"
+    },
+    {
+      "id": "repair-140e9925ef8de2e3",
+      "status": "open",
+      "priority": "high",
+      "model_id": "autogluon/mitra-classifier-1.1",
+      "original_model_url": "https://huggingface.co/autogluon/mitra-classifier-1.1",
+      "project_url": "https://gitcode.com/harzva/mitra-classifier-1.1-npu",
+      "repo_slug": "harzva/mitra-classifier-1.1-npu",
+      "submission_number": 19,
+      "submitted_at": "2026-08-11T04:32:19+08:00",
+      "first_seen_at": "2026-08-11T04:33:43+08:00",
+      "last_seen_at": "2026-08-11T04:33:43+08:00",
+      "issues": [
+        {
+          "id": "issue-ad9f6dfc07acb159",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/mitra-classifier-1.1-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/mitra-classifier-1.1-npu.json",
+      "receipt_path": "feedback/receipts/mitra-classifier-1.1-npu.json"
+    },
+    {
+      "id": "repair-d8862aca864a062e",
+      "status": "open",
+      "priority": "high",
+      "model_id": "autogluon/mitra-classifier",
+      "original_model_url": "https://huggingface.co/autogluon/mitra-classifier",
+      "project_url": "https://gitcode.com/harzva/mitra-classifier-npu",
+      "repo_slug": "harzva/mitra-classifier-npu",
+      "submission_number": 17,
+      "submitted_at": "2026-08-11T04:31:40+08:00",
+      "first_seen_at": "2026-08-11T04:33:43+08:00",
+      "last_seen_at": "2026-08-11T04:33:43+08:00",
+      "issues": [
+        {
+          "id": "issue-53c6f31be64520a6",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/mitra-classifier-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/mitra-classifier-npu.json",
+      "receipt_path": "feedback/receipts/mitra-classifier-npu.json"
+    },
+    {
+      "id": "repair-2a77905bfe75d030",
+      "status": "open",
+      "priority": "high",
+      "model_id": "Datadog/Toto-Open-Base-1.0",
+      "original_model_url": "https://huggingface.co/Datadog/Toto-Open-Base-1.0",
+      "project_url": "https://gitcode.com/harzva/toto-open-base-1.0-npu",
+      "repo_slug": "harzva/toto-open-base-1.0-npu",
+      "submission_number": 18,
+      "submitted_at": "2026-08-11T04:32:04+08:00",
+      "first_seen_at": "2026-08-11T04:33:43+08:00",
+      "last_seen_at": "2026-08-11T04:33:43+08:00",
+      "issues": [
+        {
+          "id": "issue-911d5aa272be5139",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/toto-open-base-1.0-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/toto-open-base-1.0-npu.json",
+      "receipt_path": "feedback/receipts/toto-open-base-1.0-npu.json"
     }
   ]
 }

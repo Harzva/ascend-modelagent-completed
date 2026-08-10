@@ -1,10 +1,9 @@
 {
   "schema_version": "1.0",
   "competition_id": "2083120580017467393",
-  "state_hash": "4f818eab8d17b3f95c400a7063424927e0d6eccafd1b1e6d6bc123eb06892d3c",
+  "source_url": "https://competition.gitcode.com/competition/2083120580017467393/publish",
   "observed_at": "2026-08-11T04:33:43+08:00",
   "total_score": 1400,
-  "submission_count": 19,
   "records": [
     {
       "submission_number": 19,
@@ -12,19 +11,8 @@
       "model_id": "autogluon/mitra-classifier-1.1",
       "original_model_url": "https://huggingface.co/autogluon/mitra-classifier-1.1",
       "project_url": "https://gitcode.com/harzva/mitra-classifier-1.1-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-ad9f6dfc07acb159",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
+      "reminders": [
+        "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png"
       ]
     },
     {
@@ -33,19 +21,8 @@
       "model_id": "Datadog/Toto-Open-Base-1.0",
       "original_model_url": "https://huggingface.co/Datadog/Toto-Open-Base-1.0",
       "project_url": "https://gitcode.com/harzva/toto-open-base-1.0-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-911d5aa272be5139",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
+      "reminders": [
+        "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png"
       ]
     },
     {
@@ -54,19 +31,8 @@
       "model_id": "autogluon/mitra-classifier",
       "original_model_url": "https://huggingface.co/autogluon/mitra-classifier",
       "project_url": "https://gitcode.com/harzva/mitra-classifier-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-53c6f31be64520a6",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
+      "reminders": [
+        "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png"
       ]
     },
     {
@@ -75,8 +41,7 @@
       "model_id": "microsoft/trocr-small-handwritten",
       "original_model_url": "https://huggingface.co/microsoft/trocr-small-handwritten",
       "project_url": "https://gitcode.com/harzva/trocr-small-handwritten-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 15,
@@ -84,8 +49,7 @@
       "model_id": "microsoft/trocr-base-printed",
       "original_model_url": "https://huggingface.co/microsoft/trocr-base-printed",
       "project_url": "https://gitcode.com/harzva/trocr-base-printed-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 14,
@@ -93,15 +57,8 @@
       "model_id": "kha-white/manga-ocr-base",
       "original_model_url": "https://huggingface.co/kha-white/manga-ocr-base",
       "project_url": "https://gitcode.com/harzva/manga-ocr-base-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-85fa821a153fc2c5",
-          "code": "repository_access_problem",
-          "severity": "critical",
-          "message": "作品仓库不是公开仓库，跳过计分",
-          "paths": []
-        }
+      "reminders": [
+        "作品仓库不是公开仓库，跳过计分"
       ]
     },
     {
@@ -110,8 +67,7 @@
       "model_id": "facebook/dino-vitb16",
       "original_model_url": "https://huggingface.co/facebook/dino-vitb16",
       "project_url": "https://gitcode.com/harzva/dino-vitb16-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 12,
@@ -119,19 +75,8 @@
       "model_id": "depth-anything/DA3METRIC-LARGE",
       "original_model_url": "https://huggingface.co/depth-anything/DA3METRIC-LARGE",
       "project_url": "https://gitcode.com/harzva/da3metric-large-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-3958d2a9a04e13fa",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
+      "reminders": [
+        "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png"
       ]
     },
     {
@@ -140,8 +85,7 @@
       "model_id": "ZhengPeng7/BiRefNet",
       "original_model_url": "https://huggingface.co/ZhengPeng7/BiRefNet",
       "project_url": "https://gitcode.com/harzva/birefnet-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 10,
@@ -149,8 +93,7 @@
       "model_id": "CIDAS/clipseg-rd64-refined",
       "original_model_url": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
       "project_url": "https://gitcode.com/harzva/clipseg-rd64-refined-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 9,
@@ -158,8 +101,7 @@
       "model_id": "ibm-granite/granite-embedding-small-english-r2",
       "original_model_url": "https://huggingface.co/ibm-granite/granite-embedding-small-english-r2",
       "project_url": "https://gitcode.com/harzva/granite-embedding-small-english-r2-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 8,
@@ -167,8 +109,7 @@
       "model_id": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
       "original_model_url": "https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1",
       "project_url": "https://gitcode.com/harzva/multi-qa-mpnet-base-dot-v1-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 7,
@@ -176,8 +117,7 @@
       "model_id": "microsoft/table-transformer-detection",
       "original_model_url": "https://hf-mirror.com/microsoft/table-transformer-detection",
       "project_url": "https://gitcode.com/harzva/table-transformer-detection-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 6,
@@ -185,8 +125,7 @@
       "model_id": "nvidia/llama-nemotron-embed-1b-v2",
       "original_model_url": "https://hf-mirror.com/nvidia/llama-nemotron-embed-1b-v2",
       "project_url": "https://gitcode.com/harzva/llama-nemotron-embed-1b-v2-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 5,
@@ -194,8 +133,7 @@
       "model_id": "ibm-granite/granite-timeseries-patchtsmixer",
       "original_model_url": "https://hf-mirror.com/ibm-granite/granite-timeseries-patchtsmixer",
       "project_url": "https://gitcode.com/harzva/granite-timeseries-patchtsmixer-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 4,
@@ -203,8 +141,7 @@
       "model_id": "facebook/mask2former-swin-large-ade-semantic",
       "original_model_url": "https://hf-mirror.com/facebook/mask2former-swin-large-ade-semantic",
       "project_url": "https://gitcode.com/harzva/mask2former-swin-large-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 3,
@@ -212,8 +149,7 @@
       "model_id": "facebook/w2v-bert-2.0",
       "original_model_url": "https://hf-mirror.com/facebook/w2v-bert-2.0",
       "project_url": "https://gitcode.com/harzva/w2v-bert-2-0-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 2,
@@ -221,8 +157,7 @@
       "model_id": "timm/convnext_tiny.in12k_ft_in1k",
       "original_model_url": "https://hf-mirror.com/timm/convnext_tiny.in12k_ft_in1k",
       "project_url": "https://gitcode.com/harzva/convnext-tiny-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 1,
@@ -230,8 +165,7 @@
       "model_id": "infinitejoy/wav2vec2-large-xls-r-300m-welsh",
       "original_model_url": "https://huggingface.co/infinitejoy/wav2vec2-large-xls-r-300m-welsh",
       "project_url": "https://gitcode.com/harzva/wav2vec2-large-xls-r-300m-welsh-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     }
   ]
 }
