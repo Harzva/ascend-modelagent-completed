@@ -5,7 +5,7 @@
 生产者读取比赛页面“查看结果”，将每条提交记录规范化后运行：
 
 ```bash
-python scripts/update_feedback.py --input feedback/snapshots/<snapshot>.json
+python scripts/update_feedback.py --input feedback/incoming.json --archive-snapshot
 ```
 
 生产者拥有并更新：

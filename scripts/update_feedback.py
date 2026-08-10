@@ -9,6 +9,7 @@ import json
 import os
 import re
 import tempfile
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -74,6 +75,14 @@ def snapshot_state_hash(payload: dict) -> str:
     }
     encoded = json.dumps(state, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+
+
+def archive_snapshot(payload: dict, repo_root: Path) -> Path:
+    observed_at = datetime.fromisoformat(payload["observed_at"])
+    filename = observed_at.strftime("%Y-%m-%dT%H%M%S%z.json")
+    destination = repo_root / "feedback" / "snapshots" / filename
+    atomic_write_json(destination, payload)
+    return destination
 
 
 def classify_reminder(project_url: str, reminder: str) -> dict:
@@ -290,11 +299,19 @@ def main() -> int:
     parser.add_argument("--input", required=True, type=Path, help="规范化比赛结果快照 JSON")
     parser.add_argument("--repo-root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--archive-snapshot",
+        action="store_true",
+        help="仅在比赛结果状态变化时归档输入快照",
+    )
     args = parser.parse_args()
     payload = read_json(args.input)
     previous_latest = read_json(args.repo_root.resolve() / "feedback" / "latest.json", {}) or {}
     changed = previous_latest.get("state_hash") != snapshot_state_hash(payload)
     queue = update_feedback(payload, args.repo_root.resolve(), dry_run=args.dry_run)
+    archived_snapshot = None
+    if changed and args.archive_snapshot and not args.dry_run:
+        archived_snapshot = archive_snapshot(payload, args.repo_root.resolve())
     print(
         json.dumps(
             {
@@ -302,6 +319,7 @@ def main() -> int:
                 "open_issue_count": queue["summary"]["open_issue_count"],
                 "queue": str(args.repo_root.resolve() / "feedback" / "queue.json"),
                 "changed": changed,
+                "archived_snapshot": str(archived_snapshot) if archived_snapshot else None,
                 "dry_run": args.dry_run,
             },
             ensure_ascii=False,

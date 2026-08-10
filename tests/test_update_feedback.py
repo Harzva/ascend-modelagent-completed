@@ -13,6 +13,17 @@ SPEC.loader.exec_module(MODULE)
 
 
 class UpdateFeedbackTests(unittest.TestCase):
+    def test_snapshot_archive_uses_observation_time(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            payload = {"observed_at": "2026-08-11T03:01:23+08:00", "records": []}
+            archived = MODULE.archive_snapshot(payload, root)
+            self.assertEqual(
+                archived.name,
+                "2026-08-11T030123+0800.json",
+            )
+            self.assertEqual(json.loads(archived.read_text(encoding="utf-8")), payload)
+
     def test_missing_files_are_structured(self):
         issue = MODULE.classify_reminder(
             "https://gitcode.com/harzva/demo-npu",
