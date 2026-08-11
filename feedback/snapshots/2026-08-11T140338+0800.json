@@ -1,10 +1,9 @@
 {
   "schema_version": "1.0",
   "competition_id": "2083120580017467393",
-  "state_hash": "bd3a2f5db8207fe49da4a28f0bb87fd6392592045f27dd993041c6c248437746",
+  "source_url": "https://competition.gitcode.com/competition/2083120580017467393/publish",
   "observed_at": "2026-08-11T14:03:38+08:00",
   "total_score": 2900,
-  "submission_count": 44,
   "records": [
     {
       "submission_number": 44,
@@ -12,8 +11,7 @@
       "model_id": "multimolecule/hal",
       "original_model_url": "https://huggingface.co/multimolecule/hal",
       "project_url": "https://gitcode.com/harzva/hal-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 43,
@@ -21,8 +19,7 @@
       "model_id": "multimolecule/procapnet",
       "original_model_url": "https://huggingface.co/multimolecule/procapnet",
       "project_url": "https://gitcode.com/harzva/procapnet-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 42,
@@ -30,8 +27,7 @@
       "model_id": "multimolecule/malinois",
       "original_model_url": "https://huggingface.co/multimolecule/malinois",
       "project_url": "https://gitcode.com/harzva/malinois-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 41,
@@ -39,8 +35,7 @@
       "model_id": "multimolecule/chrombpnet",
       "original_model_url": "https://huggingface.co/multimolecule/chrombpnet",
       "project_url": "https://gitcode.com/harzva/chrombpnet-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 40,
@@ -48,8 +43,7 @@
       "model_id": "multimolecule/scbasset",
       "original_model_url": "https://huggingface.co/multimolecule/scbasset",
       "project_url": "https://gitcode.com/harzva/scbasset-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 39,
@@ -57,8 +51,7 @@
       "model_id": "multimolecule/basset",
       "original_model_url": "https://huggingface.co/multimolecule/basset",
       "project_url": "https://gitcode.com/harzva/basset-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 38,
@@ -66,8 +59,7 @@
       "model_id": "multimolecule/pangolin",
       "original_model_url": "https://huggingface.co/multimolecule/pangolin",
       "project_url": "https://gitcode.com/harzva/pangolin-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 37,
@@ -75,8 +67,7 @@
       "model_id": "multimolecule/framepool",
       "original_model_url": "https://huggingface.co/multimolecule/framepool",
       "project_url": "https://gitcode.com/harzva/framepool-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 36,
@@ -84,8 +75,7 @@
       "model_id": "multimolecule/optimus5prime",
       "original_model_url": "https://huggingface.co/multimolecule/optimus5prime",
       "project_url": "https://gitcode.com/harzva/optimus5prime-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 35,
@@ -93,8 +83,7 @@
       "model_id": "multimolecule/a2zchromatin-accessibility",
       "original_model_url": "https://huggingface.co/multimolecule/a2zchromatin-accessibility",
       "project_url": "https://gitcode.com/harzva/a2zchromatin-accessibility-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 34,
@@ -102,8 +91,7 @@
       "model_id": "multimolecule/bpnet",
       "original_model_url": "https://huggingface.co/multimolecule/bpnet",
       "project_url": "https://gitcode.com/harzva/bpnet-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 33,
@@ -111,8 +99,7 @@
       "model_id": "ibm-research/test-patchtsmixer",
       "original_model_url": "https://huggingface.co/ibm-research/test-patchtsmixer",
       "project_url": "https://gitcode.com/harzva/test-patchtsmixer-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 32,
@@ -120,8 +107,7 @@
       "model_id": "multimolecule/openspliceai-zebrafish.2000",
       "original_model_url": "https://huggingface.co/multimolecule/openspliceai-zebrafish.2000",
       "project_url": "https://gitcode.com/harzva/openspliceai-zebrafish2000-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 31,
@@ -129,8 +115,7 @@
       "model_id": "multimolecule/openspliceai-mane.10000",
       "original_model_url": "https://huggingface.co/multimolecule/openspliceai-mane.10000",
       "project_url": "https://gitcode.com/harzva/openspliceai-mane-10000-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 30,
@@ -138,8 +123,7 @@
       "model_id": "multimolecule/openspliceai-mane.400",
       "original_model_url": "https://huggingface.co/multimolecule/openspliceai-mane.400",
       "project_url": "https://gitcode.com/harzva/openspliceai-mane400-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 29,
@@ -147,17 +131,8 @@
       "model_id": "multimolecule/deltasplice-human",
       "original_model_url": "https://huggingface.co/multimolecule/deltasplice-human",
       "project_url": "https://gitcode.com/harzva/deltasplice-human-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-8db1d0b302ed62d4",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -166,17 +141,8 @@
       "model_id": "multimolecule/deltasplice",
       "original_model_url": "https://huggingface.co/multimolecule/deltasplice",
       "project_url": "https://gitcode.com/harzva/deltasplice-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-8131d4655658377e",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -185,17 +151,8 @@
       "model_id": "multimolecule/mmsplice",
       "original_model_url": "https://huggingface.co/multimolecule/mmsplice",
       "project_url": "https://gitcode.com/harzva/mmsplice-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-42150426a5a6394d",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -204,17 +161,8 @@
       "model_id": "multimolecule/mtsplice",
       "original_model_url": "https://huggingface.co/multimolecule/mtsplice",
       "project_url": "https://gitcode.com/harzva/mtsplice-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-5e0e1a3c7c22e2a3",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -223,17 +171,8 @@
       "model_id": "multimolecule/spotrna",
       "original_model_url": "https://huggingface.co/multimolecule/spotrna",
       "project_url": "https://gitcode.com/harzva/spotrna-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-9cbfb9965b2a34f1",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -242,17 +181,8 @@
       "model_id": "multimolecule/aparent",
       "original_model_url": "https://huggingface.co/multimolecule/aparent",
       "project_url": "https://gitcode.com/harzva/aparent-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-3b38fc5da02dd1dc",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -261,17 +191,8 @@
       "model_id": "multimolecule/aparent2",
       "original_model_url": "https://huggingface.co/multimolecule/aparent2",
       "project_url": "https://gitcode.com/harzva/aparent2-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-ff6ca7eb8f12f479",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -280,17 +201,8 @@
       "model_id": "multimolecule/deepsea",
       "original_model_url": "https://huggingface.co/multimolecule/deepsea",
       "project_url": "https://gitcode.com/harzva/deepsea-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-8ba6f2078ef9d0e3",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -299,17 +211,8 @@
       "model_id": "multimolecule/ufold",
       "original_model_url": "https://huggingface.co/multimolecule/ufold",
       "project_url": "https://gitcode.com/harzva/ufold-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-11158171e96acfc9",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -318,17 +221,8 @@
       "model_id": "multimolecule/bpfold",
       "original_model_url": "https://huggingface.co/multimolecule/bpfold",
       "project_url": "https://gitcode.com/harzva/bpfold-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-0505c6ba67a1a282",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
+      "reminders": [
+        "作品 README 头部 metadata 缺少 hardware: NPU 标签"
       ]
     },
     {
@@ -337,19 +231,8 @@
       "model_id": "autogluon/mitra-classifier-1.1",
       "original_model_url": "https://huggingface.co/autogluon/mitra-classifier-1.1",
       "project_url": "https://gitcode.com/harzva/mitra-classifier-1.1-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-ad9f6dfc07acb159",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
+      "reminders": [
+        "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png"
       ]
     },
     {
@@ -358,19 +241,8 @@
       "model_id": "Datadog/Toto-Open-Base-1.0",
       "original_model_url": "https://huggingface.co/Datadog/Toto-Open-Base-1.0",
       "project_url": "https://gitcode.com/harzva/toto-open-base-1.0-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-911d5aa272be5139",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
+      "reminders": [
+        "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png"
       ]
     },
     {
@@ -379,19 +251,8 @@
       "model_id": "autogluon/mitra-classifier",
       "original_model_url": "https://huggingface.co/autogluon/mitra-classifier",
       "project_url": "https://gitcode.com/harzva/mitra-classifier-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-53c6f31be64520a6",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
+      "reminders": [
+        "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png"
       ]
     },
     {
@@ -400,8 +261,7 @@
       "model_id": "microsoft/trocr-small-handwritten",
       "original_model_url": "https://huggingface.co/microsoft/trocr-small-handwritten",
       "project_url": "https://gitcode.com/harzva/trocr-small-handwritten-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 15,
@@ -409,8 +269,7 @@
       "model_id": "microsoft/trocr-base-printed",
       "original_model_url": "https://huggingface.co/microsoft/trocr-base-printed",
       "project_url": "https://gitcode.com/harzva/trocr-base-printed-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 14,
@@ -418,15 +277,8 @@
       "model_id": "kha-white/manga-ocr-base",
       "original_model_url": "https://huggingface.co/kha-white/manga-ocr-base",
       "project_url": "https://gitcode.com/harzva/manga-ocr-base-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-85fa821a153fc2c5",
-          "code": "repository_access_problem",
-          "severity": "critical",
-          "message": "作品仓库不是公开仓库，跳过计分",
-          "paths": []
-        }
+      "reminders": [
+        "作品仓库不是公开仓库，跳过计分"
       ]
     },
     {
@@ -435,8 +287,7 @@
       "model_id": "facebook/dino-vitb16",
       "original_model_url": "https://huggingface.co/facebook/dino-vitb16",
       "project_url": "https://gitcode.com/harzva/dino-vitb16-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 12,
@@ -444,19 +295,8 @@
       "model_id": "depth-anything/DA3METRIC-LARGE",
       "original_model_url": "https://huggingface.co/depth-anything/DA3METRIC-LARGE",
       "project_url": "https://gitcode.com/harzva/da3metric-large-npu",
-      "status": "needs_fix",
-      "issues": [
-        {
-          "id": "issue-3958d2a9a04e13fa",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
+      "reminders": [
+        "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png"
       ]
     },
     {
@@ -465,8 +305,7 @@
       "model_id": "ZhengPeng7/BiRefNet",
       "original_model_url": "https://huggingface.co/ZhengPeng7/BiRefNet",
       "project_url": "https://gitcode.com/harzva/birefnet-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 10,
@@ -474,8 +313,7 @@
       "model_id": "CIDAS/clipseg-rd64-refined",
       "original_model_url": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
       "project_url": "https://gitcode.com/harzva/clipseg-rd64-refined-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 9,
@@ -483,8 +321,7 @@
       "model_id": "ibm-granite/granite-embedding-small-english-r2",
       "original_model_url": "https://huggingface.co/ibm-granite/granite-embedding-small-english-r2",
       "project_url": "https://gitcode.com/harzva/granite-embedding-small-english-r2-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 8,
@@ -492,8 +329,7 @@
       "model_id": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
       "original_model_url": "https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1",
       "project_url": "https://gitcode.com/harzva/multi-qa-mpnet-base-dot-v1-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 7,
@@ -501,8 +337,7 @@
       "model_id": "microsoft/table-transformer-detection",
       "original_model_url": "https://hf-mirror.com/microsoft/table-transformer-detection",
       "project_url": "https://gitcode.com/harzva/table-transformer-detection-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 6,
@@ -510,8 +345,7 @@
       "model_id": "nvidia/llama-nemotron-embed-1b-v2",
       "original_model_url": "https://hf-mirror.com/nvidia/llama-nemotron-embed-1b-v2",
       "project_url": "https://gitcode.com/harzva/llama-nemotron-embed-1b-v2-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 5,
@@ -519,8 +353,7 @@
       "model_id": "ibm-granite/granite-timeseries-patchtsmixer",
       "original_model_url": "https://hf-mirror.com/ibm-granite/granite-timeseries-patchtsmixer",
       "project_url": "https://gitcode.com/harzva/granite-timeseries-patchtsmixer-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 4,
@@ -528,8 +361,7 @@
       "model_id": "facebook/mask2former-swin-large-ade-semantic",
       "original_model_url": "https://hf-mirror.com/facebook/mask2former-swin-large-ade-semantic",
       "project_url": "https://gitcode.com/harzva/mask2former-swin-large-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 3,
@@ -537,8 +369,7 @@
       "model_id": "facebook/w2v-bert-2.0",
       "original_model_url": "https://hf-mirror.com/facebook/w2v-bert-2.0",
       "project_url": "https://gitcode.com/harzva/w2v-bert-2-0-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 2,
@@ -546,8 +377,7 @@
       "model_id": "timm/convnext_tiny.in12k_ft_in1k",
       "original_model_url": "https://hf-mirror.com/timm/convnext_tiny.in12k_ft_in1k",
       "project_url": "https://gitcode.com/harzva/convnext-tiny-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     },
     {
       "submission_number": 1,
@@ -555,8 +385,7 @@
       "model_id": "infinitejoy/wav2vec2-large-xls-r-300m-welsh",
       "original_model_url": "https://huggingface.co/infinitejoy/wav2vec2-large-xls-r-300m-welsh",
       "project_url": "https://gitcode.com/harzva/wav2vec2-large-xls-r-300m-welsh-npu",
-      "status": "clean",
-      "issues": []
+      "reminders": []
     }
   ]
 }
