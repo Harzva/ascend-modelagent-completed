@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/Harzva/ascend-modelagent-completed/main/schema/competition-feedback-v1.schema.json",
   "schema_version": "1.0",
   "competition_id": "2083120580017467393",
-  "generated_at": "2026-08-11T17:05:07+08:00",
+  "generated_at": "2026-08-11T17:37:01+08:00",
   "source": {
     "url": "https://competition.gitcode.com/competition/2083120580017467393/publish",
-    "total_score": 5400,
-    "submission_count": 69
+    "total_score": 5500,
+    "submission_count": 73
   },
   "summary": {
-    "open_model_count": 15,
-    "open_issue_count": 15
+    "open_model_count": 18,
+    "open_issue_count": 18
   },
   "items": [
     {
@@ -24,7 +24,7 @@
       "submission_number": 14,
       "submitted_at": "2026-08-11 04:01:59",
       "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-85fa821a153fc2c5",
@@ -63,7 +63,7 @@
       "submission_number": 24,
       "submitted_at": "2026-08-11 05:32:25",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-3b38fc5da02dd1dc",
@@ -104,7 +104,7 @@
       "submission_number": 23,
       "submitted_at": "2026-08-11 05:32:11",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-ff6ca7eb8f12f479",
@@ -145,7 +145,7 @@
       "submission_number": 20,
       "submitted_at": "2026-08-11 05:29:23",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-0505c6ba67a1a282",
@@ -186,7 +186,7 @@
       "submission_number": 12,
       "submitted_at": "2026-08-11 03:01:23",
       "first_seen_at": "2026-08-11T03:01:23+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-3958d2a9a04e13fa",
@@ -230,7 +230,7 @@
       "submission_number": 22,
       "submitted_at": "2026-08-11 05:31:38",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-8ba6f2078ef9d0e3",
@@ -271,7 +271,7 @@
       "submission_number": 29,
       "submitted_at": "2026-08-11 06:30:38",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-8db1d0b302ed62d4",
@@ -312,7 +312,7 @@
       "submission_number": 28,
       "submitted_at": "2026-08-11 06:30:21",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-8131d4655658377e",
@@ -353,7 +353,7 @@
       "submission_number": 19,
       "submitted_at": "2026-08-11 04:32:19",
       "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-ad9f6dfc07acb159",
@@ -397,7 +397,7 @@
       "submission_number": 17,
       "submitted_at": "2026-08-11 04:31:40",
       "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-53c6f31be64520a6",
@@ -441,7 +441,7 @@
       "submission_number": 27,
       "submitted_at": "2026-08-11 06:30:05",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-42150426a5a6394d",
@@ -482,7 +482,7 @@
       "submission_number": 26,
       "submitted_at": "2026-08-11 06:29:39",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-5e0e1a3c7c22e2a3",
@@ -523,7 +523,7 @@
       "submission_number": 25,
       "submitted_at": "2026-08-11 06:29:15",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-9cbfb9965b2a34f1",
@@ -564,7 +564,7 @@
       "submission_number": 18,
       "submitted_at": "2026-08-11 04:32:04",
       "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-911d5aa272be5139",
@@ -608,7 +608,7 @@
       "submission_number": 21,
       "submitted_at": "2026-08-11 05:30:33",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:05:07+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
       "issues": [
         {
           "id": "issue-11158171e96acfc9",
@@ -637,6 +637,123 @@
       },
       "model_feedback_path": "feedback/models/ufold-npu.json",
       "receipt_path": "feedback/receipts/ufold-npu.json"
+    },
+    {
+      "id": "repair-5fb8deed7ade230e",
+      "status": "open",
+      "priority": "medium",
+      "model_id": "multimolecule/borzoi-human",
+      "original_model_url": "https://huggingface.co/multimolecule/borzoi-human",
+      "project_url": "https://gitcode.com/harzva/borzoi-human-npu",
+      "repo_slug": "harzva/borzoi-human-npu",
+      "submission_number": 71,
+      "submitted_at": "2026-08-11 17:31:12",
+      "first_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "issues": [
+        {
+          "id": "issue-47ee0052e2028ada",
+          "code": "competition_low_score_reminder",
+          "severity": "medium",
+          "message": "作品仓库 README 为空，跳过计分",
+          "paths": []
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/borzoi-human-npu",
+        "actions": [
+          "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
+        ],
+        "verification": [
+          "重新打开比赛查看结果，确认对应提醒消失",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/borzoi-human-npu.json",
+      "receipt_path": "feedback/receipts/borzoi-human-npu.json"
+    },
+    {
+      "id": "repair-d915e1d2bd324ef0",
+      "status": "open",
+      "priority": "medium",
+      "model_id": "multimolecule/borzoi-mouse",
+      "original_model_url": "https://huggingface.co/multimolecule/borzoi-mouse",
+      "project_url": "https://gitcode.com/harzva/borzoi-mouse-npu",
+      "repo_slug": "harzva/borzoi-mouse-npu",
+      "submission_number": 73,
+      "submitted_at": "2026-08-11 17:32:15",
+      "first_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "issues": [
+        {
+          "id": "issue-0f4534afbd5251fe",
+          "code": "competition_low_score_reminder",
+          "severity": "medium",
+          "message": "作品仓库 README 为空，跳过计分",
+          "paths": []
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/borzoi-mouse-npu",
+        "actions": [
+          "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
+        ],
+        "verification": [
+          "重新打开比赛查看结果，确认对应提醒消失",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/borzoi-mouse-npu.json",
+      "receipt_path": "feedback/receipts/borzoi-mouse-npu.json"
+    },
+    {
+      "id": "repair-3bf96d8c6a5c382b",
+      "status": "open",
+      "priority": "medium",
+      "model_id": "multimolecule/enformer",
+      "original_model_url": "https://huggingface.co/multimolecule/enformer",
+      "project_url": "https://gitcode.com/harzva/enformer-npu",
+      "repo_slug": "harzva/enformer-npu",
+      "submission_number": 72,
+      "submitted_at": "2026-08-11 17:31:44",
+      "first_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "issues": [
+        {
+          "id": "issue-a76d775690d20c85",
+          "code": "competition_low_score_reminder",
+          "severity": "medium",
+          "message": "作品仓库 README 为空，跳过计分",
+          "paths": []
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/enformer-npu",
+        "actions": [
+          "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
+        ],
+        "verification": [
+          "重新打开比赛查看结果，确认对应提醒消失",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/enformer-npu.json",
+      "receipt_path": "feedback/receipts/enformer-npu.json"
     }
   ]
 }

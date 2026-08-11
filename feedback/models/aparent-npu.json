@@ -4,7 +4,7 @@
   "model_id": "multimolecule/aparent",
   "status": "open",
   "first_seen_at": "2026-08-11T05:33:24+08:00",
-  "last_seen_at": "2026-08-11T17:05:07+08:00",
+  "last_seen_at": "2026-08-11T17:37:01+08:00",
   "resolved_at": null,
   "issues": [
     {
@@ -99,6 +99,13 @@
     {
       "observed_at": "2026-08-11T17:05:07+08:00",
       "total_score": 5400,
+      "issue_ids": [
+        "issue-3b38fc5da02dd1dc"
+      ]
+    },
+    {
+      "observed_at": "2026-08-11T17:37:01+08:00",
+      "total_score": 5500,
       "issue_ids": [
         "issue-3b38fc5da02dd1dc"
       ]
