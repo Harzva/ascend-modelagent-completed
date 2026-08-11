@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/Harzva/ascend-modelagent-completed/main/schema/competition-feedback-v1.schema.json",
   "schema_version": "1.0",
   "competition_id": "2083120580017467393",
-  "generated_at": "2026-08-11T17:37:01+08:00",
+  "generated_at": "2026-08-11T22:04:48+08:00",
   "source": {
     "url": "https://competition.gitcode.com/competition/2083120580017467393/publish",
     "total_score": 5500,
-    "submission_count": 73
+    "submission_count": 74
   },
   "summary": {
-    "open_model_count": 18,
-    "open_issue_count": 18
+    "open_model_count": 19,
+    "open_issue_count": 19
   },
   "items": [
     {
@@ -24,7 +24,7 @@
       "submission_number": 14,
       "submitted_at": "2026-08-11 04:01:59",
       "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-85fa821a153fc2c5",
@@ -63,7 +63,7 @@
       "submission_number": 24,
       "submitted_at": "2026-08-11 05:32:25",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-3b38fc5da02dd1dc",
@@ -104,7 +104,7 @@
       "submission_number": 23,
       "submitted_at": "2026-08-11 05:32:11",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-ff6ca7eb8f12f479",
@@ -145,7 +145,7 @@
       "submission_number": 20,
       "submitted_at": "2026-08-11 05:29:23",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-0505c6ba67a1a282",
@@ -186,7 +186,7 @@
       "submission_number": 12,
       "submitted_at": "2026-08-11 03:01:23",
       "first_seen_at": "2026-08-11T03:01:23+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-3958d2a9a04e13fa",
@@ -230,7 +230,7 @@
       "submission_number": 22,
       "submitted_at": "2026-08-11 05:31:38",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-8ba6f2078ef9d0e3",
@@ -271,7 +271,7 @@
       "submission_number": 29,
       "submitted_at": "2026-08-11 06:30:38",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-8db1d0b302ed62d4",
@@ -312,7 +312,7 @@
       "submission_number": 28,
       "submitted_at": "2026-08-11 06:30:21",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-8131d4655658377e",
@@ -353,7 +353,7 @@
       "submission_number": 19,
       "submitted_at": "2026-08-11 04:32:19",
       "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-ad9f6dfc07acb159",
@@ -397,7 +397,7 @@
       "submission_number": 17,
       "submitted_at": "2026-08-11 04:31:40",
       "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-53c6f31be64520a6",
@@ -441,7 +441,7 @@
       "submission_number": 27,
       "submitted_at": "2026-08-11 06:30:05",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-42150426a5a6394d",
@@ -482,7 +482,7 @@
       "submission_number": 26,
       "submitted_at": "2026-08-11 06:29:39",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-5e0e1a3c7c22e2a3",
@@ -523,7 +523,7 @@
       "submission_number": 25,
       "submitted_at": "2026-08-11 06:29:15",
       "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-9cbfb9965b2a34f1",
@@ -564,7 +564,7 @@
       "submission_number": 18,
       "submitted_at": "2026-08-11 04:32:04",
       "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-911d5aa272be5139",
@@ -608,7 +608,7 @@
       "submission_number": 21,
       "submitted_at": "2026-08-11 05:30:33",
       "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-11158171e96acfc9",
@@ -639,6 +639,50 @@
       "receipt_path": "feedback/receipts/ufold-npu.json"
     },
     {
+      "id": "repair-a04bce3dd682cd97",
+      "status": "open",
+      "priority": "high",
+      "model_id": "fixie-ai/ultraVAD",
+      "original_model_url": "https://huggingface.co/fixie-ai/ultraVAD",
+      "project_url": "https://gitcode.com/harzva/ultravad-npu",
+      "repo_slug": "harzva/ultravad-npu",
+      "submission_number": 74,
+      "submitted_at": "2026-08-11 22:02:37",
+      "first_seen_at": "2026-08-11T22:04:48+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
+      "issues": [
+        {
+          "id": "issue-e016266cba2b4ec7",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/ultravad-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/ultravad-npu.json",
+      "receipt_path": "feedback/receipts/ultravad-npu.json"
+    },
+    {
       "id": "repair-5fb8deed7ade230e",
       "status": "open",
       "priority": "medium",
@@ -649,7 +693,7 @@
       "submission_number": 71,
       "submitted_at": "2026-08-11 17:31:12",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-47ee0052e2028ada",
@@ -688,7 +732,7 @@
       "submission_number": 73,
       "submitted_at": "2026-08-11 17:32:15",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-0f4534afbd5251fe",
@@ -727,7 +771,7 @@
       "submission_number": 72,
       "submitted_at": "2026-08-11 17:31:44",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-11T17:37:01+08:00",
+      "last_seen_at": "2026-08-11T22:04:48+08:00",
       "issues": [
         {
           "id": "issue-a76d775690d20c85",
