@@ -4,7 +4,7 @@
   "model_id": "kha-white/manga-ocr-base",
   "status": "open",
   "first_seen_at": "2026-08-11T04:33:43+08:00",
-  "last_seen_at": "2026-08-11T06:33:52.785+08:00",
+  "last_seen_at": "2026-08-11T11:17:05+08:00",
   "resolved_at": null,
   "issues": [
     {
@@ -48,6 +48,13 @@
     {
       "observed_at": "2026-08-11T06:33:52.785+08:00",
       "total_score": 1400,
+      "issue_ids": [
+        "issue-85fa821a153fc2c5"
+      ]
+    },
+    {
+      "observed_at": "2026-08-11T11:17:05+08:00",
+      "total_score": 1900,
       "issue_ids": [
         "issue-85fa821a153fc2c5"
       ]
