@@ -4,7 +4,7 @@
   "model_id": "multimolecule/borzoi-human",
   "status": "open",
   "first_seen_at": "2026-08-11T17:37:01+08:00",
-  "last_seen_at": "2026-08-18T12:00:45+08:00",
+  "last_seen_at": "2026-08-18T12:55:16+08:00",
   "resolved_at": null,
   "issues": [
     {
@@ -54,6 +54,13 @@
     },
     {
       "observed_at": "2026-08-18T12:00:45+08:00",
+      "total_score": 7000,
+      "issue_ids": [
+        "issue-47ee0052e2028ada"
+      ]
+    },
+    {
+      "observed_at": "2026-08-18T12:55:16+08:00",
       "total_score": 7000,
       "issue_ids": [
         "issue-47ee0052e2028ada"

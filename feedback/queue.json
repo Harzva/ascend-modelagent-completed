@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/Harzva/ascend-modelagent-completed/main/schema/competition-feedback-v1.schema.json",
   "schema_version": "1.0",
   "competition_id": "2083120580017467393",
-  "generated_at": "2026-08-18T12:00:45+08:00",
+  "generated_at": "2026-08-18T12:55:16+08:00",
   "source": {
     "url": "https://competition.gitcode.com/competition/2083120580017467393/publish",
     "total_score": 7000,
-    "submission_count": 84
+    "submission_count": 85
   },
   "summary": {
-    "open_model_count": 14,
-    "open_issue_count": 14
+    "open_model_count": 15,
+    "open_issue_count": 15
   },
   "items": [
     {
@@ -24,7 +24,7 @@
       "submission_number": 81,
       "submitted_at": "2026-08-18 11:56:17",
       "first_seen_at": "2026-08-18T12:00:45+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-0f88746d0bc2e485",
@@ -68,7 +68,7 @@
       "submission_number": 76,
       "submitted_at": "2026-08-18 10:59:39",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-03651faa88e68e88",
@@ -112,7 +112,7 @@
       "submission_number": 75,
       "submitted_at": "2026-08-18 10:58:25",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-5cf8d8b97e66a805",
@@ -156,7 +156,7 @@
       "submission_number": 83,
       "submitted_at": "2026-08-18 11:58:12",
       "first_seen_at": "2026-08-18T12:00:45+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-0727cefa4dfddcfc",
@@ -200,7 +200,7 @@
       "submission_number": 84,
       "submitted_at": "2026-08-18 11:59:28",
       "first_seen_at": "2026-08-18T12:00:45+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-75c2c6d0b8aed7e0",
@@ -244,7 +244,7 @@
       "submission_number": 82,
       "submitted_at": "2026-08-18 11:57:06",
       "first_seen_at": "2026-08-18T12:00:45+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-2bedb4e091154517",
@@ -278,6 +278,50 @@
       "receipt_path": "feedback/receipts/ttm-r2-npu.json"
     },
     {
+      "id": "repair-eb56f3cf203756db",
+      "status": "open",
+      "priority": "high",
+      "model_id": "ibm-research/ttm-r3",
+      "original_model_url": "https://huggingface.co/ibm-research/ttm-r3",
+      "project_url": "https://gitcode.com/harzva/ttm-r3-npu",
+      "repo_slug": "harzva/ttm-r3-npu",
+      "submission_number": 85,
+      "submitted_at": "2026-08-18 12:54:04",
+      "first_seen_at": "2026-08-18T12:55:16+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
+      "issues": [
+        {
+          "id": "issue-360b1baf91033137",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/ttm-r3-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/ttm-r3-npu.json",
+      "receipt_path": "feedback/receipts/ttm-r3-npu.json"
+    },
+    {
       "id": "repair-a04bce3dd682cd97",
       "status": "open",
       "priority": "high",
@@ -288,7 +332,7 @@
       "submission_number": 74,
       "submitted_at": "2026-08-11 22:02:37",
       "first_seen_at": "2026-08-11T22:04:48+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-e016266cba2b4ec7",
@@ -332,7 +376,7 @@
       "submission_number": 71,
       "submitted_at": "2026-08-11 17:31:12",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-47ee0052e2028ada",
@@ -371,7 +415,7 @@
       "submission_number": 73,
       "submitted_at": "2026-08-11 17:32:15",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-0f4534afbd5251fe",
@@ -410,7 +454,7 @@
       "submission_number": 72,
       "submitted_at": "2026-08-11 17:31:44",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-a76d775690d20c85",
@@ -449,7 +493,7 @@
       "submission_number": 80,
       "submitted_at": "2026-08-18 11:55:04",
       "first_seen_at": "2026-08-18T12:00:45+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-74b296d47f2a4583",
@@ -488,7 +532,7 @@
       "submission_number": 77,
       "submitted_at": "2026-08-18 11:00:35",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-2d18d82089291207",
@@ -527,7 +571,7 @@
       "submission_number": 78,
       "submitted_at": "2026-08-18 11:01:27",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-8c9e8e55fac5a567",
@@ -566,7 +610,7 @@
       "submission_number": 79,
       "submitted_at": "2026-08-18 11:02:11",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:55:16+08:00",
       "issues": [
         {
           "id": "issue-372a2560bd7914e7",
