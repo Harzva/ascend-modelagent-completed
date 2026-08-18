@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "project_url": "https://gitcode.com/harzva/ttm-r1-npu",
-  "model_id": "ibm-granite/granite-timeseries-ttm-r1",
+  "project_url": "https://gitcode.com/harzva/granite-timeseries-patchtst-fm-r1-npu",
+  "model_id": "ibm-granite/granite-timeseries-patchtst-fm-r1",
   "status": "open",
-  "first_seen_at": "2026-08-18T12:00:45+08:00",
+  "first_seen_at": "2026-08-18T13:28:23+08:00",
   "last_seen_at": "2026-08-18T13:28:23+08:00",
   "resolved_at": null,
   "issues": [
     {
-      "id": "issue-75c2c6d0b8aed7e0",
+      "id": "issue-31977140dd462d67",
       "code": "missing_required_files",
       "severity": "high",
       "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
@@ -20,7 +20,7 @@
     }
   ],
   "repair_contract": {
-    "target_repository": "https://gitcode.com/harzva/ttm-r1-npu",
+    "target_repository": "https://gitcode.com/harzva/granite-timeseries-patchtst-fm-r1-npu",
     "actions": [
       "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
     ],
@@ -37,24 +37,10 @@
   },
   "observations": [
     {
-      "observed_at": "2026-08-18T12:00:45+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-75c2c6d0b8aed7e0"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T12:55:16+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-75c2c6d0b8aed7e0"
-      ]
-    },
-    {
       "observed_at": "2026-08-18T13:28:23+08:00",
       "total_score": 7000,
       "issue_ids": [
-        "issue-75c2c6d0b8aed7e0"
+        "issue-31977140dd462d67"
       ]
     }
   ]

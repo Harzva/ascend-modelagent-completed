@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "project_url": "https://gitcode.com/harzva/toto-2-0-22m-npu",
-  "model_id": "Datadog/Toto-2.0-22m",
+  "project_url": "https://gitcode.com/harzva/toto-2-0-2-5b-npu",
+  "model_id": "Datadog/Toto-2.0-2.5B",
   "status": "open",
-  "first_seen_at": "2026-08-18T11:05:24+08:00",
+  "first_seen_at": "2026-08-18T13:28:23+08:00",
   "last_seen_at": "2026-08-18T13:28:23+08:00",
   "resolved_at": null,
   "issues": [
     {
-      "id": "issue-2d18d82089291207",
+      "id": "issue-034e3d5a2911a4f6",
       "code": "competition_low_score_reminder",
       "severity": "medium",
       "message": "作品仓库 README 为空，跳过计分",
@@ -16,7 +16,7 @@
     }
   ],
   "repair_contract": {
-    "target_repository": "https://gitcode.com/harzva/toto-2-0-22m-npu",
+    "target_repository": "https://gitcode.com/harzva/toto-2-0-2-5b-npu",
     "actions": [
       "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
     ],
@@ -32,31 +32,10 @@
   },
   "observations": [
     {
-      "observed_at": "2026-08-18T11:05:24+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-2d18d82089291207"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T12:00:45+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-2d18d82089291207"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T12:55:16+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-2d18d82089291207"
-      ]
-    },
-    {
       "observed_at": "2026-08-18T13:28:23+08:00",
       "total_score": 7000,
       "issue_ids": [
-        "issue-2d18d82089291207"
+        "issue-034e3d5a2911a4f6"
       ]
     }
   ]
