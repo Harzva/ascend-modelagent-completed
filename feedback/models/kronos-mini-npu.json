@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "project_url": "https://gitcode.com/harzva/tabdpt-npu",
-  "model_id": "Layer6/TabDPT",
+  "project_url": "https://gitcode.com/harzva/kronos-mini-npu",
+  "model_id": "NeoQuasar/Kronos-mini",
   "status": "open",
-  "first_seen_at": "2026-08-18T12:00:45+08:00",
+  "first_seen_at": "2026-08-18T14:27:05+08:00",
   "last_seen_at": "2026-08-18T14:27:05+08:00",
   "resolved_at": null,
   "issues": [
     {
-      "id": "issue-74b296d47f2a4583",
+      "id": "issue-77159fdbff1c23ba",
       "code": "competition_low_score_reminder",
       "severity": "medium",
       "message": "作品仓库 README 为空，跳过计分",
@@ -16,7 +16,7 @@
     }
   ],
   "repair_contract": {
-    "target_repository": "https://gitcode.com/harzva/tabdpt-npu",
+    "target_repository": "https://gitcode.com/harzva/kronos-mini-npu",
     "actions": [
       "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
     ],
@@ -32,38 +32,10 @@
   },
   "observations": [
     {
-      "observed_at": "2026-08-18T12:00:45+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-74b296d47f2a4583"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T12:55:16+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-74b296d47f2a4583"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T13:28:23+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-74b296d47f2a4583"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T13:56:33+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-74b296d47f2a4583"
-      ]
-    },
-    {
       "observed_at": "2026-08-18T14:27:05+08:00",
       "total_score": 7100,
       "issue_ids": [
-        "issue-74b296d47f2a4583"
+        "issue-77159fdbff1c23ba"
       ]
     }
   ]
