@@ -4,7 +4,7 @@
   "model_id": "AutonLab/MOMENT-1-small",
   "status": "open",
   "first_seen_at": "2026-08-18T12:00:45+08:00",
-  "last_seen_at": "2026-08-18T13:28:23+08:00",
+  "last_seen_at": "2026-08-18T13:56:33+08:00",
   "resolved_at": null,
   "issues": [
     {
@@ -52,6 +52,13 @@
     },
     {
       "observed_at": "2026-08-18T13:28:23+08:00",
+      "total_score": 7000,
+      "issue_ids": [
+        "issue-0727cefa4dfddcfc"
+      ]
+    },
+    {
+      "observed_at": "2026-08-18T13:56:33+08:00",
       "total_score": 7000,
       "issue_ids": [
         "issue-0727cefa4dfddcfc"

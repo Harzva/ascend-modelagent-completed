@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "project_url": "https://gitcode.com/harzva/toto-2-0-313m-npu",
-  "model_id": "Datadog/Toto-2.0-313m",
+  "project_url": "https://gitcode.com/harzva/kronos-tokenizer-base-npu",
+  "model_id": "NeoQuasar/Kronos-Tokenizer-base",
   "status": "open",
-  "first_seen_at": "2026-08-18T11:05:24+08:00",
+  "first_seen_at": "2026-08-18T13:56:33+08:00",
   "last_seen_at": "2026-08-18T13:56:33+08:00",
   "resolved_at": null,
   "issues": [
     {
-      "id": "issue-8c9e8e55fac5a567",
+      "id": "issue-717f47c292583bc0",
       "code": "competition_low_score_reminder",
       "severity": "medium",
       "message": "作品仓库 README 为空，跳过计分",
@@ -16,7 +16,7 @@
     }
   ],
   "repair_contract": {
-    "target_repository": "https://gitcode.com/harzva/toto-2-0-313m-npu",
+    "target_repository": "https://gitcode.com/harzva/kronos-tokenizer-base-npu",
     "actions": [
       "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
     ],
@@ -32,38 +32,10 @@
   },
   "observations": [
     {
-      "observed_at": "2026-08-18T11:05:24+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-8c9e8e55fac5a567"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T12:00:45+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-8c9e8e55fac5a567"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T12:55:16+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-8c9e8e55fac5a567"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T13:28:23+08:00",
-      "total_score": 7000,
-      "issue_ids": [
-        "issue-8c9e8e55fac5a567"
-      ]
-    },
-    {
       "observed_at": "2026-08-18T13:56:33+08:00",
       "total_score": 7000,
       "issue_ids": [
-        "issue-8c9e8e55fac5a567"
+        "issue-717f47c292583bc0"
       ]
     }
   ]

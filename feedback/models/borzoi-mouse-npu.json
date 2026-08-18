@@ -4,7 +4,7 @@
   "model_id": "multimolecule/borzoi-mouse",
   "status": "open",
   "first_seen_at": "2026-08-11T17:37:01+08:00",
-  "last_seen_at": "2026-08-18T13:28:23+08:00",
+  "last_seen_at": "2026-08-18T13:56:33+08:00",
   "resolved_at": null,
   "issues": [
     {
@@ -68,6 +68,13 @@
     },
     {
       "observed_at": "2026-08-18T13:28:23+08:00",
+      "total_score": 7000,
+      "issue_ids": [
+        "issue-0f4534afbd5251fe"
+      ]
+    },
+    {
+      "observed_at": "2026-08-18T13:56:33+08:00",
       "total_score": 7000,
       "issue_ids": [
         "issue-0f4534afbd5251fe"
