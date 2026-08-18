@@ -2,17 +2,61 @@
   "$schema": "https://raw.githubusercontent.com/Harzva/ascend-modelagent-completed/main/schema/competition-feedback-v1.schema.json",
   "schema_version": "1.0",
   "competition_id": "2083120580017467393",
-  "generated_at": "2026-08-18T11:05:24+08:00",
+  "generated_at": "2026-08-18T12:00:45+08:00",
   "source": {
     "url": "https://competition.gitcode.com/competition/2083120580017467393/publish",
     "total_score": 7000,
-    "submission_count": 79
+    "submission_count": 84
   },
   "summary": {
-    "open_model_count": 9,
-    "open_issue_count": 9
+    "open_model_count": 14,
+    "open_issue_count": 14
   },
   "items": [
+    {
+      "id": "repair-89ddaebba49459b8",
+      "status": "open",
+      "priority": "high",
+      "model_id": "nvidia/bigvgan_v2_22khz_80band_256x",
+      "original_model_url": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x",
+      "project_url": "https://gitcode.com/harzva/bigvgan-npu",
+      "repo_slug": "harzva/bigvgan-npu",
+      "submission_number": 81,
+      "submitted_at": "2026-08-18 11:56:17",
+      "first_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "issues": [
+        {
+          "id": "issue-0f88746d0bc2e485",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/bigvgan-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/bigvgan-npu.json",
+      "receipt_path": "feedback/receipts/bigvgan-npu.json"
+    },
     {
       "id": "repair-ff8703df1cf837c9",
       "status": "open",
@@ -24,7 +68,7 @@
       "submission_number": 76,
       "submitted_at": "2026-08-18 10:59:39",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
       "issues": [
         {
           "id": "issue-03651faa88e68e88",
@@ -68,7 +112,7 @@
       "submission_number": 75,
       "submitted_at": "2026-08-18 10:58:25",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
       "issues": [
         {
           "id": "issue-5cf8d8b97e66a805",
@@ -102,6 +146,138 @@
       "receipt_path": "feedback/receipts/granite-timeseries-flowstate-r1-npu.json"
     },
     {
+      "id": "repair-e1cfe8c11f5890fd",
+      "status": "open",
+      "priority": "high",
+      "model_id": "AutonLab/MOMENT-1-small",
+      "original_model_url": "https://huggingface.co/AutonLab/MOMENT-1-small",
+      "project_url": "https://gitcode.com/harzva/moment-1-small-npu",
+      "repo_slug": "harzva/moment-1-small-npu",
+      "submission_number": 83,
+      "submitted_at": "2026-08-18 11:58:12",
+      "first_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "issues": [
+        {
+          "id": "issue-0727cefa4dfddcfc",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/moment-1-small-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/moment-1-small-npu.json",
+      "receipt_path": "feedback/receipts/moment-1-small-npu.json"
+    },
+    {
+      "id": "repair-48b05732cb15c65d",
+      "status": "open",
+      "priority": "high",
+      "model_id": "ibm-granite/granite-timeseries-ttm-r1",
+      "original_model_url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r1",
+      "project_url": "https://gitcode.com/harzva/ttm-r1-npu",
+      "repo_slug": "harzva/ttm-r1-npu",
+      "submission_number": 84,
+      "submitted_at": "2026-08-18 11:59:28",
+      "first_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "issues": [
+        {
+          "id": "issue-75c2c6d0b8aed7e0",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/ttm-r1-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/ttm-r1-npu.json",
+      "receipt_path": "feedback/receipts/ttm-r1-npu.json"
+    },
+    {
+      "id": "repair-7200b2832f0cd1d3",
+      "status": "open",
+      "priority": "high",
+      "model_id": "ibm-granite/granite-timeseries-ttm-r2",
+      "original_model_url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2",
+      "project_url": "https://gitcode.com/harzva/ttm-r2-npu",
+      "repo_slug": "harzva/ttm-r2-npu",
+      "submission_number": 82,
+      "submitted_at": "2026-08-18 11:57:06",
+      "first_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "issues": [
+        {
+          "id": "issue-2bedb4e091154517",
+          "code": "missing_required_files",
+          "severity": "high",
+          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
+          "paths": [
+            "assets/agent_workflow.png",
+            "assets/model_result.png",
+            "assets/npu_device_call.png"
+          ]
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/ttm-r2-npu",
+        "actions": [
+          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
+        ],
+        "verification": [
+          "确认模型仓库中可匿名访问全部必需文件",
+          "基于真实 Model Agent/NPU 日志核验三张截图内容",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/ttm-r2-npu.json",
+      "receipt_path": "feedback/receipts/ttm-r2-npu.json"
+    },
+    {
       "id": "repair-a04bce3dd682cd97",
       "status": "open",
       "priority": "high",
@@ -112,7 +288,7 @@
       "submission_number": 74,
       "submitted_at": "2026-08-11 22:02:37",
       "first_seen_at": "2026-08-11T22:04:48+08:00",
-      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
       "issues": [
         {
           "id": "issue-e016266cba2b4ec7",
@@ -156,7 +332,7 @@
       "submission_number": 71,
       "submitted_at": "2026-08-11 17:31:12",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
       "issues": [
         {
           "id": "issue-47ee0052e2028ada",
@@ -195,7 +371,7 @@
       "submission_number": 73,
       "submitted_at": "2026-08-11 17:32:15",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
       "issues": [
         {
           "id": "issue-0f4534afbd5251fe",
@@ -234,7 +410,7 @@
       "submission_number": 72,
       "submitted_at": "2026-08-11 17:31:44",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
       "issues": [
         {
           "id": "issue-a76d775690d20c85",
@@ -263,6 +439,45 @@
       "receipt_path": "feedback/receipts/enformer-npu.json"
     },
     {
+      "id": "repair-d002bb347d082aad",
+      "status": "open",
+      "priority": "medium",
+      "model_id": "Layer6/TabDPT",
+      "original_model_url": "https://huggingface.co/Layer6/TabDPT",
+      "project_url": "https://gitcode.com/harzva/tabdpt-npu",
+      "repo_slug": "harzva/tabdpt-npu",
+      "submission_number": 80,
+      "submitted_at": "2026-08-18 11:55:04",
+      "first_seen_at": "2026-08-18T12:00:45+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
+      "issues": [
+        {
+          "id": "issue-74b296d47f2a4583",
+          "code": "competition_low_score_reminder",
+          "severity": "medium",
+          "message": "作品仓库 README 为空，跳过计分",
+          "paths": []
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/tabdpt-npu",
+        "actions": [
+          "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
+        ],
+        "verification": [
+          "重新打开比赛查看结果，确认对应提醒消失",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/tabdpt-npu.json",
+      "receipt_path": "feedback/receipts/tabdpt-npu.json"
+    },
+    {
       "id": "repair-61bf009fce9ada59",
       "status": "open",
       "priority": "medium",
@@ -273,7 +488,7 @@
       "submission_number": 77,
       "submitted_at": "2026-08-18 11:00:35",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
       "issues": [
         {
           "id": "issue-2d18d82089291207",
@@ -312,7 +527,7 @@
       "submission_number": 78,
       "submitted_at": "2026-08-18 11:01:27",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
       "issues": [
         {
           "id": "issue-8c9e8e55fac5a567",
@@ -351,7 +566,7 @@
       "submission_number": 79,
       "submitted_at": "2026-08-18 11:02:11",
       "first_seen_at": "2026-08-18T11:05:24+08:00",
-      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T12:00:45+08:00",
       "issues": [
         {
           "id": "issue-372a2560bd7914e7",
