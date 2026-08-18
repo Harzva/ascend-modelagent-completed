@@ -2,194 +2,32 @@
   "$schema": "https://raw.githubusercontent.com/Harzva/ascend-modelagent-completed/main/schema/competition-feedback-v1.schema.json",
   "schema_version": "1.0",
   "competition_id": "2083120580017467393",
-  "generated_at": "2026-08-11T22:04:48+08:00",
+  "generated_at": "2026-08-18T11:05:24+08:00",
   "source": {
     "url": "https://competition.gitcode.com/competition/2083120580017467393/publish",
-    "total_score": 5500,
-    "submission_count": 74
+    "total_score": 7000,
+    "submission_count": 79
   },
   "summary": {
-    "open_model_count": 19,
-    "open_issue_count": 19
+    "open_model_count": 9,
+    "open_issue_count": 9
   },
   "items": [
     {
-      "id": "repair-e640e0f0641aba46",
-      "status": "open",
-      "priority": "critical",
-      "model_id": "kha-white/manga-ocr-base",
-      "original_model_url": "https://huggingface.co/kha-white/manga-ocr-base",
-      "project_url": "https://gitcode.com/harzva/manga-ocr-base-npu",
-      "repo_slug": "harzva/manga-ocr-base-npu",
-      "submission_number": 14,
-      "submitted_at": "2026-08-11 04:01:59",
-      "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-85fa821a153fc2c5",
-          "code": "repository_access_problem",
-          "severity": "critical",
-          "message": "作品仓库不是公开仓库，跳过计分",
-          "paths": []
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/manga-ocr-base-npu",
-        "actions": [
-          "按比赛低分提醒修复：作品仓库不是公开仓库，跳过计分"
-        ],
-        "verification": [
-          "重新打开比赛查看结果，确认对应提醒消失",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/manga-ocr-base-npu.json",
-      "receipt_path": "feedback/receipts/manga-ocr-base-npu.json"
-    },
-    {
-      "id": "repair-21191bc1b5c4f9a3",
+      "id": "repair-ff8703df1cf837c9",
       "status": "open",
       "priority": "high",
-      "model_id": "multimolecule/aparent",
-      "original_model_url": "https://huggingface.co/multimolecule/aparent",
-      "project_url": "https://gitcode.com/harzva/aparent-npu",
-      "repo_slug": "harzva/aparent-npu",
-      "submission_number": 24,
-      "submitted_at": "2026-08-11 05:32:25",
-      "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
+      "model_id": "ibm-research/flowstate",
+      "original_model_url": "https://huggingface.co/ibm-research/flowstate",
+      "project_url": "https://gitcode.com/harzva/flowstate-npu",
+      "repo_slug": "harzva/flowstate-npu",
+      "submission_number": 76,
+      "submitted_at": "2026-08-18 10:59:39",
+      "first_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T11:05:24+08:00",
       "issues": [
         {
-          "id": "issue-3b38fc5da02dd1dc",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/aparent-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/aparent-npu.json",
-      "receipt_path": "feedback/receipts/aparent-npu.json"
-    },
-    {
-      "id": "repair-6920472b72ca9582",
-      "status": "open",
-      "priority": "high",
-      "model_id": "multimolecule/aparent2",
-      "original_model_url": "https://huggingface.co/multimolecule/aparent2",
-      "project_url": "https://gitcode.com/harzva/aparent2-npu",
-      "repo_slug": "harzva/aparent2-npu",
-      "submission_number": 23,
-      "submitted_at": "2026-08-11 05:32:11",
-      "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-ff6ca7eb8f12f479",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/aparent2-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/aparent2-npu.json",
-      "receipt_path": "feedback/receipts/aparent2-npu.json"
-    },
-    {
-      "id": "repair-94363eee1f82ca01",
-      "status": "open",
-      "priority": "high",
-      "model_id": "multimolecule/bpfold",
-      "original_model_url": "https://huggingface.co/multimolecule/bpfold",
-      "project_url": "https://gitcode.com/harzva/bpfold-npu",
-      "repo_slug": "harzva/bpfold-npu",
-      "submission_number": 20,
-      "submitted_at": "2026-08-11 05:29:23",
-      "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-0505c6ba67a1a282",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/bpfold-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/bpfold-npu.json",
-      "receipt_path": "feedback/receipts/bpfold-npu.json"
-    },
-    {
-      "id": "repair-e727b9d3e5a9cd24",
-      "status": "open",
-      "priority": "high",
-      "model_id": "depth-anything/DA3METRIC-LARGE",
-      "original_model_url": "https://huggingface.co/depth-anything/DA3METRIC-LARGE",
-      "project_url": "https://gitcode.com/harzva/da3metric-large-npu",
-      "repo_slug": "harzva/da3metric-large-npu",
-      "submission_number": 12,
-      "submitted_at": "2026-08-11 03:01:23",
-      "first_seen_at": "2026-08-11T03:01:23+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-3958d2a9a04e13fa",
+          "id": "issue-03651faa88e68e88",
           "code": "missing_required_files",
           "severity": "high",
           "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
@@ -201,7 +39,7 @@
         }
       ],
       "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/da3metric-large-npu",
+        "target_repository": "https://gitcode.com/harzva/flowstate-npu",
         "actions": [
           "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
         ],
@@ -216,147 +54,24 @@
           "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
         ]
       },
-      "model_feedback_path": "feedback/models/da3metric-large-npu.json",
-      "receipt_path": "feedback/receipts/da3metric-large-npu.json"
+      "model_feedback_path": "feedback/models/flowstate-npu.json",
+      "receipt_path": "feedback/receipts/flowstate-npu.json"
     },
     {
-      "id": "repair-1a8cca8cc366a416",
+      "id": "repair-129c4466c113239f",
       "status": "open",
       "priority": "high",
-      "model_id": "multimolecule/deepsea",
-      "original_model_url": "https://huggingface.co/multimolecule/deepsea",
-      "project_url": "https://gitcode.com/harzva/deepsea-npu",
-      "repo_slug": "harzva/deepsea-npu",
-      "submission_number": 22,
-      "submitted_at": "2026-08-11 05:31:38",
-      "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
+      "model_id": "ibm-granite/granite-timeseries-flowstate-r1",
+      "original_model_url": "https://huggingface.co/ibm-granite/granite-timeseries-flowstate-r1",
+      "project_url": "https://gitcode.com/harzva/granite-timeseries-flowstate-r1-npu",
+      "repo_slug": "harzva/granite-timeseries-flowstate-r1-npu",
+      "submission_number": 75,
+      "submitted_at": "2026-08-18 10:58:25",
+      "first_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T11:05:24+08:00",
       "issues": [
         {
-          "id": "issue-8ba6f2078ef9d0e3",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/deepsea-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/deepsea-npu.json",
-      "receipt_path": "feedback/receipts/deepsea-npu.json"
-    },
-    {
-      "id": "repair-9caa529ead456aec",
-      "status": "open",
-      "priority": "high",
-      "model_id": "multimolecule/deltasplice-human",
-      "original_model_url": "https://huggingface.co/multimolecule/deltasplice-human",
-      "project_url": "https://gitcode.com/harzva/deltasplice-human-npu",
-      "repo_slug": "harzva/deltasplice-human-npu",
-      "submission_number": 29,
-      "submitted_at": "2026-08-11 06:30:38",
-      "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-8db1d0b302ed62d4",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/deltasplice-human-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/deltasplice-human-npu.json",
-      "receipt_path": "feedback/receipts/deltasplice-human-npu.json"
-    },
-    {
-      "id": "repair-aecfbc4913c5bb08",
-      "status": "open",
-      "priority": "high",
-      "model_id": "multimolecule/deltasplice",
-      "original_model_url": "https://huggingface.co/multimolecule/deltasplice",
-      "project_url": "https://gitcode.com/harzva/deltasplice-npu",
-      "repo_slug": "harzva/deltasplice-npu",
-      "submission_number": 28,
-      "submitted_at": "2026-08-11 06:30:21",
-      "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-8131d4655658377e",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/deltasplice-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/deltasplice-npu.json",
-      "receipt_path": "feedback/receipts/deltasplice-npu.json"
-    },
-    {
-      "id": "repair-140e9925ef8de2e3",
-      "status": "open",
-      "priority": "high",
-      "model_id": "autogluon/mitra-classifier-1.1",
-      "original_model_url": "https://huggingface.co/autogluon/mitra-classifier-1.1",
-      "project_url": "https://gitcode.com/harzva/mitra-classifier-1.1-npu",
-      "repo_slug": "harzva/mitra-classifier-1.1-npu",
-      "submission_number": 19,
-      "submitted_at": "2026-08-11 04:32:19",
-      "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-ad9f6dfc07acb159",
+          "id": "issue-5cf8d8b97e66a805",
           "code": "missing_required_files",
           "severity": "high",
           "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
@@ -368,7 +83,7 @@
         }
       ],
       "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/mitra-classifier-1.1-npu",
+        "target_repository": "https://gitcode.com/harzva/granite-timeseries-flowstate-r1-npu",
         "actions": [
           "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
         ],
@@ -383,260 +98,8 @@
           "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
         ]
       },
-      "model_feedback_path": "feedback/models/mitra-classifier-1.1-npu.json",
-      "receipt_path": "feedback/receipts/mitra-classifier-1.1-npu.json"
-    },
-    {
-      "id": "repair-d8862aca864a062e",
-      "status": "open",
-      "priority": "high",
-      "model_id": "autogluon/mitra-classifier",
-      "original_model_url": "https://huggingface.co/autogluon/mitra-classifier",
-      "project_url": "https://gitcode.com/harzva/mitra-classifier-npu",
-      "repo_slug": "harzva/mitra-classifier-npu",
-      "submission_number": 17,
-      "submitted_at": "2026-08-11 04:31:40",
-      "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-53c6f31be64520a6",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/mitra-classifier-npu",
-        "actions": [
-          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
-        ],
-        "verification": [
-          "确认模型仓库中可匿名访问全部必需文件",
-          "基于真实 Model Agent/NPU 日志核验三张截图内容",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/mitra-classifier-npu.json",
-      "receipt_path": "feedback/receipts/mitra-classifier-npu.json"
-    },
-    {
-      "id": "repair-a82e7b2235dca846",
-      "status": "open",
-      "priority": "high",
-      "model_id": "multimolecule/mmsplice",
-      "original_model_url": "https://huggingface.co/multimolecule/mmsplice",
-      "project_url": "https://gitcode.com/harzva/mmsplice-npu",
-      "repo_slug": "harzva/mmsplice-npu",
-      "submission_number": 27,
-      "submitted_at": "2026-08-11 06:30:05",
-      "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-42150426a5a6394d",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/mmsplice-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/mmsplice-npu.json",
-      "receipt_path": "feedback/receipts/mmsplice-npu.json"
-    },
-    {
-      "id": "repair-f9ea975c9ba1a7c9",
-      "status": "open",
-      "priority": "high",
-      "model_id": "multimolecule/mtsplice",
-      "original_model_url": "https://huggingface.co/multimolecule/mtsplice",
-      "project_url": "https://gitcode.com/harzva/mtsplice-npu",
-      "repo_slug": "harzva/mtsplice-npu",
-      "submission_number": 26,
-      "submitted_at": "2026-08-11 06:29:39",
-      "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-5e0e1a3c7c22e2a3",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/mtsplice-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/mtsplice-npu.json",
-      "receipt_path": "feedback/receipts/mtsplice-npu.json"
-    },
-    {
-      "id": "repair-06ef25619d769d43",
-      "status": "open",
-      "priority": "high",
-      "model_id": "multimolecule/spotrna",
-      "original_model_url": "https://huggingface.co/multimolecule/spotrna",
-      "project_url": "https://gitcode.com/harzva/spotrna-npu",
-      "repo_slug": "harzva/spotrna-npu",
-      "submission_number": 25,
-      "submitted_at": "2026-08-11 06:29:15",
-      "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-9cbfb9965b2a34f1",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/spotrna-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/spotrna-npu.json",
-      "receipt_path": "feedback/receipts/spotrna-npu.json"
-    },
-    {
-      "id": "repair-2a77905bfe75d030",
-      "status": "open",
-      "priority": "high",
-      "model_id": "Datadog/Toto-Open-Base-1.0",
-      "original_model_url": "https://huggingface.co/Datadog/Toto-Open-Base-1.0",
-      "project_url": "https://gitcode.com/harzva/toto-open-base-1.0-npu",
-      "repo_slug": "harzva/toto-open-base-1.0-npu",
-      "submission_number": 18,
-      "submitted_at": "2026-08-11 04:32:04",
-      "first_seen_at": "2026-08-11T04:33:43+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-911d5aa272be5139",
-          "code": "missing_required_files",
-          "severity": "high",
-          "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-          "paths": [
-            "assets/agent_workflow.png",
-            "assets/model_result.png",
-            "assets/npu_device_call.png"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/toto-open-base-1.0-npu",
-        "actions": [
-          "补齐缺失的必需文件：assets/agent_workflow.png、assets/model_result.png、assets/npu_device_call.png"
-        ],
-        "verification": [
-          "确认模型仓库中可匿名访问全部必需文件",
-          "基于真实 Model Agent/NPU 日志核验三张截图内容",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/toto-open-base-1.0-npu.json",
-      "receipt_path": "feedback/receipts/toto-open-base-1.0-npu.json"
-    },
-    {
-      "id": "repair-307956bbd2d2851f",
-      "status": "open",
-      "priority": "high",
-      "model_id": "multimolecule/ufold",
-      "original_model_url": "https://huggingface.co/multimolecule/ufold",
-      "project_url": "https://gitcode.com/harzva/ufold-npu",
-      "repo_slug": "harzva/ufold-npu",
-      "submission_number": 21,
-      "submitted_at": "2026-08-11 05:30:33",
-      "first_seen_at": "2026-08-11T05:33:24+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
-      "issues": [
-        {
-          "id": "issue-11158171e96acfc9",
-          "code": "missing_npu_metadata",
-          "severity": "high",
-          "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-          "paths": [
-            "README.md"
-          ]
-        }
-      ],
-      "repair_contract": {
-        "target_repository": "https://gitcode.com/harzva/ufold-npu",
-        "actions": [
-          "修复 README.md frontmatter，确保 hardware: NPU"
-        ],
-        "verification": [
-          "重新读取 README.md 并确认平台 NPU 元数据可识别",
-          "修复推送后写入 feedback/receipts/<repo-name>.json"
-        ],
-        "constraints": [
-          "只修改 target_repository 指向的模型仓库",
-          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
-          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
-        ]
-      },
-      "model_feedback_path": "feedback/models/ufold-npu.json",
-      "receipt_path": "feedback/receipts/ufold-npu.json"
+      "model_feedback_path": "feedback/models/granite-timeseries-flowstate-r1-npu.json",
+      "receipt_path": "feedback/receipts/granite-timeseries-flowstate-r1-npu.json"
     },
     {
       "id": "repair-a04bce3dd682cd97",
@@ -649,7 +112,7 @@
       "submission_number": 74,
       "submitted_at": "2026-08-11 22:02:37",
       "first_seen_at": "2026-08-11T22:04:48+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
+      "last_seen_at": "2026-08-18T11:05:24+08:00",
       "issues": [
         {
           "id": "issue-e016266cba2b4ec7",
@@ -693,7 +156,7 @@
       "submission_number": 71,
       "submitted_at": "2026-08-11 17:31:12",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
+      "last_seen_at": "2026-08-18T11:05:24+08:00",
       "issues": [
         {
           "id": "issue-47ee0052e2028ada",
@@ -732,7 +195,7 @@
       "submission_number": 73,
       "submitted_at": "2026-08-11 17:32:15",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
+      "last_seen_at": "2026-08-18T11:05:24+08:00",
       "issues": [
         {
           "id": "issue-0f4534afbd5251fe",
@@ -771,7 +234,7 @@
       "submission_number": 72,
       "submitted_at": "2026-08-11 17:31:44",
       "first_seen_at": "2026-08-11T17:37:01+08:00",
-      "last_seen_at": "2026-08-11T22:04:48+08:00",
+      "last_seen_at": "2026-08-18T11:05:24+08:00",
       "issues": [
         {
           "id": "issue-a76d775690d20c85",
@@ -798,6 +261,123 @@
       },
       "model_feedback_path": "feedback/models/enformer-npu.json",
       "receipt_path": "feedback/receipts/enformer-npu.json"
+    },
+    {
+      "id": "repair-61bf009fce9ada59",
+      "status": "open",
+      "priority": "medium",
+      "model_id": "Datadog/Toto-2.0-22m",
+      "original_model_url": "https://huggingface.co/Datadog/Toto-2.0-22m",
+      "project_url": "https://gitcode.com/harzva/toto-2-0-22m-npu",
+      "repo_slug": "harzva/toto-2-0-22m-npu",
+      "submission_number": 77,
+      "submitted_at": "2026-08-18 11:00:35",
+      "first_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "issues": [
+        {
+          "id": "issue-2d18d82089291207",
+          "code": "competition_low_score_reminder",
+          "severity": "medium",
+          "message": "作品仓库 README 为空，跳过计分",
+          "paths": []
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/toto-2-0-22m-npu",
+        "actions": [
+          "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
+        ],
+        "verification": [
+          "重新打开比赛查看结果，确认对应提醒消失",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/toto-2-0-22m-npu.json",
+      "receipt_path": "feedback/receipts/toto-2-0-22m-npu.json"
+    },
+    {
+      "id": "repair-88ec34ff031b5e33",
+      "status": "open",
+      "priority": "medium",
+      "model_id": "Datadog/Toto-2.0-313m",
+      "original_model_url": "https://huggingface.co/Datadog/Toto-2.0-313m",
+      "project_url": "https://gitcode.com/harzva/toto-2-0-313m-npu",
+      "repo_slug": "harzva/toto-2-0-313m-npu",
+      "submission_number": 78,
+      "submitted_at": "2026-08-18 11:01:27",
+      "first_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "issues": [
+        {
+          "id": "issue-8c9e8e55fac5a567",
+          "code": "competition_low_score_reminder",
+          "severity": "medium",
+          "message": "作品仓库 README 为空，跳过计分",
+          "paths": []
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/toto-2-0-313m-npu",
+        "actions": [
+          "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
+        ],
+        "verification": [
+          "重新打开比赛查看结果，确认对应提醒消失",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/toto-2-0-313m-npu.json",
+      "receipt_path": "feedback/receipts/toto-2-0-313m-npu.json"
+    },
+    {
+      "id": "repair-5eb2a22635c50111",
+      "status": "open",
+      "priority": "medium",
+      "model_id": "Datadog/Toto-2.0-4m",
+      "original_model_url": "https://huggingface.co/Datadog/Toto-2.0-4m",
+      "project_url": "https://gitcode.com/harzva/toto-2-0-4m-npu",
+      "repo_slug": "harzva/toto-2-0-4m-npu",
+      "submission_number": 79,
+      "submitted_at": "2026-08-18 11:02:11",
+      "first_seen_at": "2026-08-18T11:05:24+08:00",
+      "last_seen_at": "2026-08-18T11:05:24+08:00",
+      "issues": [
+        {
+          "id": "issue-372a2560bd7914e7",
+          "code": "competition_low_score_reminder",
+          "severity": "medium",
+          "message": "作品仓库 README 为空，跳过计分",
+          "paths": []
+        }
+      ],
+      "repair_contract": {
+        "target_repository": "https://gitcode.com/harzva/toto-2-0-4m-npu",
+        "actions": [
+          "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
+        ],
+        "verification": [
+          "重新打开比赛查看结果，确认对应提醒消失",
+          "修复推送后写入 feedback/receipts/<repo-name>.json"
+        ],
+        "constraints": [
+          "只修改 target_repository 指向的模型仓库",
+          "不得输出或提交 token、Cookie、.env、访问文件、凭据或本机私有路径",
+          "截图和验证证据必须来自真实适配过程或真实 NPU 运行，禁止伪造"
+        ]
+      },
+      "model_feedback_path": "feedback/models/toto-2-0-4m-npu.json",
+      "receipt_path": "feedback/receipts/toto-2-0-4m-npu.json"
     }
   ]
 }

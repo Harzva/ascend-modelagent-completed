@@ -2,19 +2,11 @@
   "schema_version": "1.0",
   "project_url": "https://gitcode.com/harzva/manga-ocr-base-npu",
   "model_id": "kha-white/manga-ocr-base",
-  "status": "open",
+  "status": "resolved",
   "first_seen_at": "2026-08-11T04:33:43+08:00",
-  "last_seen_at": "2026-08-11T22:04:48+08:00",
-  "resolved_at": null,
-  "issues": [
-    {
-      "id": "issue-85fa821a153fc2c5",
-      "code": "repository_access_problem",
-      "severity": "critical",
-      "message": "作品仓库不是公开仓库，跳过计分",
-      "paths": []
-    }
-  ],
+  "last_seen_at": "2026-08-18T11:05:24+08:00",
+  "resolved_at": "2026-08-18T11:05:24+08:00",
+  "issues": [],
   "repair_contract": {
     "target_repository": "https://gitcode.com/harzva/manga-ocr-base-npu",
     "actions": [

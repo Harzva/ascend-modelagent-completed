@@ -2,21 +2,11 @@
   "schema_version": "1.0",
   "project_url": "https://gitcode.com/harzva/spotrna-npu",
   "model_id": "multimolecule/spotrna",
-  "status": "open",
+  "status": "resolved",
   "first_seen_at": "2026-08-11T06:33:52.785+08:00",
-  "last_seen_at": "2026-08-11T22:04:48+08:00",
-  "resolved_at": null,
-  "issues": [
-    {
-      "id": "issue-9cbfb9965b2a34f1",
-      "code": "missing_npu_metadata",
-      "severity": "high",
-      "message": "作品 README 头部 metadata 缺少 hardware: NPU 标签",
-      "paths": [
-        "README.md"
-      ]
-    }
-  ],
+  "last_seen_at": "2026-08-18T11:05:24+08:00",
+  "resolved_at": "2026-08-18T11:05:24+08:00",
+  "issues": [],
   "repair_contract": {
     "target_repository": "https://gitcode.com/harzva/spotrna-npu",
     "actions": [

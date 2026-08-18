@@ -2,23 +2,11 @@
   "schema_version": "1.0",
   "project_url": "https://gitcode.com/harzva/toto-open-base-1.0-npu",
   "model_id": "Datadog/Toto-Open-Base-1.0",
-  "status": "open",
+  "status": "resolved",
   "first_seen_at": "2026-08-11T04:33:43+08:00",
-  "last_seen_at": "2026-08-11T22:04:48+08:00",
-  "resolved_at": null,
-  "issues": [
-    {
-      "id": "issue-911d5aa272be5139",
-      "code": "missing_required_files",
-      "severity": "high",
-      "message": "作品仓库缺少必需文件：assets/agent_workflow.png、assets/npu_device_call.png、assets/model_result.png",
-      "paths": [
-        "assets/agent_workflow.png",
-        "assets/model_result.png",
-        "assets/npu_device_call.png"
-      ]
-    }
-  ],
+  "last_seen_at": "2026-08-18T11:05:24+08:00",
+  "resolved_at": "2026-08-18T11:05:24+08:00",
+  "issues": [],
   "repair_contract": {
     "target_repository": "https://gitcode.com/harzva/toto-open-base-1.0-npu",
     "actions": [

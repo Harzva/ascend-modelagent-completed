@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "project_url": "https://gitcode.com/harzva/borzoi-human-npu",
-  "model_id": "multimolecule/borzoi-human",
+  "project_url": "https://gitcode.com/harzva/toto-2-0-4m-npu",
+  "model_id": "Datadog/Toto-2.0-4m",
   "status": "open",
-  "first_seen_at": "2026-08-11T17:37:01+08:00",
+  "first_seen_at": "2026-08-18T11:05:24+08:00",
   "last_seen_at": "2026-08-18T11:05:24+08:00",
   "resolved_at": null,
   "issues": [
     {
-      "id": "issue-47ee0052e2028ada",
+      "id": "issue-372a2560bd7914e7",
       "code": "competition_low_score_reminder",
       "severity": "medium",
       "message": "作品仓库 README 为空，跳过计分",
@@ -16,7 +16,7 @@
     }
   ],
   "repair_contract": {
-    "target_repository": "https://gitcode.com/harzva/borzoi-human-npu",
+    "target_repository": "https://gitcode.com/harzva/toto-2-0-4m-npu",
     "actions": [
       "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
     ],
@@ -32,24 +32,10 @@
   },
   "observations": [
     {
-      "observed_at": "2026-08-11T17:37:01+08:00",
-      "total_score": 5500,
-      "issue_ids": [
-        "issue-47ee0052e2028ada"
-      ]
-    },
-    {
-      "observed_at": "2026-08-11T22:04:48+08:00",
-      "total_score": 5500,
-      "issue_ids": [
-        "issue-47ee0052e2028ada"
-      ]
-    },
-    {
       "observed_at": "2026-08-18T11:05:24+08:00",
       "total_score": 7000,
       "issue_ids": [
-        "issue-47ee0052e2028ada"
+        "issue-372a2560bd7914e7"
       ]
     }
   ]
