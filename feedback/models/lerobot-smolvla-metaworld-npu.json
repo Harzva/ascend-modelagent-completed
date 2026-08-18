@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "project_url": "https://gitcode.com/harzva/kronos-small-npu",
-  "model_id": "NeoQuasar/Kronos-small",
+  "project_url": "https://gitcode.com/harzva/lerobot-smolvla-metaworld-npu",
+  "model_id": "lerobot/smolvla_metaworld",
   "status": "open",
-  "first_seen_at": "2026-08-18T14:27:05+08:00",
+  "first_seen_at": "2026-08-18T17:06:45+08:00",
   "last_seen_at": "2026-08-18T17:06:45+08:00",
   "resolved_at": null,
   "issues": [
     {
-      "id": "issue-c282c39ac9e75fff",
+      "id": "issue-ec9fb69f584aa3ba",
       "code": "competition_low_score_reminder",
       "severity": "medium",
       "message": "作品仓库 README 为空，跳过计分",
@@ -16,7 +16,7 @@
     }
   ],
   "repair_contract": {
-    "target_repository": "https://gitcode.com/harzva/kronos-small-npu",
+    "target_repository": "https://gitcode.com/harzva/lerobot-smolvla-metaworld-npu",
     "actions": [
       "按比赛低分提醒修复：作品仓库 README 为空，跳过计分"
     ],
@@ -32,24 +32,10 @@
   },
   "observations": [
     {
-      "observed_at": "2026-08-18T14:27:05+08:00",
-      "total_score": 7100,
-      "issue_ids": [
-        "issue-c282c39ac9e75fff"
-      ]
-    },
-    {
-      "observed_at": "2026-08-18T14:54:29+08:00",
-      "total_score": 7100,
-      "issue_ids": [
-        "issue-c282c39ac9e75fff"
-      ]
-    },
-    {
       "observed_at": "2026-08-18T17:06:45+08:00",
       "total_score": 7100,
       "issue_ids": [
-        "issue-c282c39ac9e75fff"
+        "issue-ec9fb69f584aa3ba"
       ]
     }
   ]

@@ -4,7 +4,7 @@
   "model_id": "Datadog/Toto-2.0-2.5B",
   "status": "open",
   "first_seen_at": "2026-08-18T13:28:23+08:00",
-  "last_seen_at": "2026-08-18T14:54:29+08:00",
+  "last_seen_at": "2026-08-18T17:06:45+08:00",
   "resolved_at": null,
   "issues": [
     {
@@ -54,6 +54,13 @@
     },
     {
       "observed_at": "2026-08-18T14:54:29+08:00",
+      "total_score": 7100,
+      "issue_ids": [
+        "issue-034e3d5a2911a4f6"
+      ]
+    },
+    {
+      "observed_at": "2026-08-18T17:06:45+08:00",
       "total_score": 7100,
       "issue_ids": [
         "issue-034e3d5a2911a4f6"
